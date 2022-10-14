@@ -1,0 +1,140 @@
+# Stepper
+stepper:
+  login: เข้าสู่ระบบ Discord
+  accounts: เลือกบัญชี
+  confirm: ยืนยัน
+
+# Application
+application:
+  title: แอพพลิเคชั่น
+  description: รายละเอียดบอท
+
+# Button
+button:
+  next: ถัดไป
+  login_discord: เข้าสู่ระบบด้วย Discord
+  login_account: เข้าสู่ระบบ
+  logout: ออกจากระบบ
+  confirm: ยืนยัน
+  add_account: เพิ่มบัญชี
+  remove_account: ลบบัญชี
+
+# Add accounts
+add_account:
+  select: โปรดเลือกวิธีเข้าสู่ระบบ
+  token:
+    title: Token
+    description: เข้าสู่ระบบด้วย Token หรือ Cookie จากเว็บไซต์ Hoyolab (ltuid, ltoken และ cookie_token)
+  mail:
+    title: E-mail
+    description: เข้าสู่ระบบด้วย E-mail และ Password ผ่านเว็บไซต์ Hoyolab
+  uid:
+    title: UID
+    description: เข้าสู่ระบบด้วย UID จากในเกมส์ Genshin Impact
+  mobile:
+    title: Mobile
+    description: เข้าสู่ระบบด้วยมือถือ (รองรับแค่เฉพาะในประเทศจีนเท่านั้น)
+
+# Add account (Server selection)
+server:
+  oversea:
+    title: เซิฟเวอร์ต่างประเทศ
+    description: "เซิฟเวอร์นี้จะรองรับเฉพาะสมัครด้วย Hoyolab ประเทศที่รองรับ: USA, Europe, Asia, Taiwan และ Hong kong"
+  cn:
+    title: เซิฟเวอร์ประเทศจีน
+    description: "เซิฟเวอร์นี้จะรองรับเฉพาะสมัครด้วย BBS Mihoyo เท่านั้น ประเทศที่รองรับ: China"
+
+# Add account (Token)
+token:
+  title: เข้าสู่ระบบด้วย Token
+  howto: วิธีการรับ Token
+  text:
+    url_oversea: https://hoyolab.com
+    url_cn: https://bbs.mihoyo.com/ys
+    js: script:d=document.cookie; c=d.includes('account_id') || alert('Cookie invalid or outdated, pleaselog out then log in again!'); c && document.write(d)
+    id: Account (ltuid หรือ account_id)
+    token: Token (ltoken)
+    cookie_token: Cookie token (cookie_token) 
+  script:
+    title: Script token
+    description: ดึงข้อมูลจาก Token ในรูปแบบง่าย โดยใช้ Script ในการดึง Cookie Token
+    howto: |
+      1. เข้าเว็บไซต์ [url]
+      2. เข้าสู่ระบบให้เรียบร้อย
+      3. โปรดนำ “Script” นี้ไปวางไว้บนช่อง URL (โปรดเขียนคำว่า “java” ไว้ข้างหน้าก่อนวาง Script):
+      [script]
+      4. นำ Token ที่แสดงที่อยู่หน้าของคุณมาวางที่ช่องว่างกล่องข้อความนี้ 
+  manual:
+    title: Input manual
+    description: กรอก Cookie token ด้วยตัวเองเพื่อต้องการนำ Cookie ที่ไม่จำเป็นออก
+    howto: |
+      1. เข้าเว็บไซต์ [url]
+      2. เข้าสู่ระบบให้เรียบร้อย
+      3. กด F12
+      4. ไปที่ Application -> Cookies -> [url]
+      5. จะมีช่อง “Filter” โดยให้ทำการหา 3 อย่างดังนี้
+          - ltuid
+          - ltoken
+          - cookie_token
+      6. นำค่าที่อยู่ใน “Value” มากรองตามดังนี้ 
+
+# Add account (E-mail & Password)
+mail:
+  title: เข้าสู่ระบบด้วย E-mail
+  text:
+    email: อีเมล หรือ ชื่อผู้ใช้งาน
+    password: รหัสผ่าน
+    alert: ระบบเราจะไม่มีการเก็บข้อมูลอย่าง E-mail และ Password
+
+# Add account (UID)
+uid:
+  title: เข้าสู่ระบบด้วย UID
+  text:
+    uid: UID
+
+# Add account (Mobile)
+mobile:
+  title: เข้าสู่ระบบด้วย Mobile
+  text:
+    mobile: เบอร์โทรมือถือ (+86)
+    otpcode: OTP Code
+    alert: ระบบจะไม่มีการเก็บข้อมูลเบอร์โทรมือถือ
+  button:
+    sendotp: ส่ง OTP Code
+    waiting: | 
+      [seconds] วินาที
+
+# Add account (Select player)
+select_player:
+  title: โปรดเลือกตัวละครของคุณ
+  text:
+    nickname: ชื่อเล่นบัญชี
+
+# Confrim service
+confirm_service:
+  text:
+    accept: ฉันยอมรับ "[term]" และ "[policy]" ของคุณ
+    term: ข้อตกลงการใช้งาน
+    policy: ข้อมูลความเป็นส่วนตัว
+    url_term: https://hutao-login.m307.dev/term
+    url_policy: https://hutao-login.m307.dev/policy
+
+# If success
+success:
+  title: เข้าสู่ระบบสำเร็จ
+  description: โปรดรอบอทเพื่อเข้าสู่ระบบอีกครั้ง และหากสำเร็จสามารถปิดหน้าต่างนี้ได้เลย
+
+# If error
+error:
+  title: เกิดข้อผิดพลาด
+  description: ระบบไม่สามารถเชื่อมต่อกับผู้ให้บริการบอท "[botname]" ได้ โปรดติดต่อผู้ให้บริการบอท
+  box: ERROR_CODE "[error]"
+
+# Error list
+errors:
+  account_fail: ไม่สามารถดึงบัญชีได้สำเร็จ โปรดลบบัญชีนี้และเข้าสู่ระบบใหม่อีกครั้ง
+  login_fail: เข้าสู่ระบบไม่สำเร็จ โปรดลองใหม่อีกครั้ง
+  auth_fail: โปรดเข้าสู่ระบบในขั้นตอนที่ 1 ให้าสำเร็จ
+  login_limit: คุณถูกจำกัดการเข้าสู่ระบบ โปรดรอ [retry_after] วินาทีและเข้าสู่ระบบใหม่อีกครั้ง
+  password_limit: คุณถูกจำกัดการเข้าสู่ระบบฝั่ง HoYoLAB โปรดรอ 20 นาทีและเข้าสู่ระบบใหม่อีกครั้ง
+  server_error: เกิดข้อผิดพลาดฝั่ง Server โปรดแจ้งผู้ดูแลระบบ
