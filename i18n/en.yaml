@@ -1,0 +1,146 @@
+# Stepper
+stepper:
+  login: Login Discord
+  accounts: Select account
+  confirm: Confirm
+
+# Application
+application:
+  title: Application
+  description: Description
+
+# Button
+button:
+  next: Next
+  login_discord: Login with Discord
+  login_account: Login
+  logout: Logout
+  confirm: Confirm
+  add_account: Add account
+  remove_account: Remove account
+
+# Add accounts
+add_account:
+  select: Please select method login
+  token:
+    title: Token
+    description: Login with token or cookie from Hoyolab site (ltuid, ltoken และ cookie_token)
+  mail:
+    title: E-mail
+    description: Login with E-mail and Password from Hoyolab
+  uid:
+    title: UID
+    description: Login with UID from Genshin Impact game
+  mobile:
+    title: Mobile
+    description: Login with mobile (Support in china player only)
+
+# Add account (Server selection)
+server:
+  oversea:
+    title: Oversea server
+    description: |
+      This server will support for register from Hoyolab 
+      Country support: USA, Europe, Asia, Taiwan and Hong kong
+  cn:
+    title: China server
+    description: |
+      This server will support for register from BBS Mihoyo 
+      Country support: China
+
+# Add account (Token)
+token:
+  title: Login with token
+  howto: How to get token
+  text:
+    url_oversea: https://hoyolab.com
+    url_cn: https://bbs.mihoyo.com/ys
+    js: script:d=document.cookie; c=d.includes('account_id') || alert('Cookie invalid or outdated, pleaselog out then log in again!'); c && document.write(d)
+    id: Account (ltuid or account_id)
+    token: Token (ltoken)
+    cookie_token: Cookie token (cookie_token) 
+  image:
+    gif_script: https://i.imgur.com/OQ8arx0.gif
+  script:
+    title: Script token
+    description: Get cookie data with using script 
+    howto: |
+      1. Enter site [url]
+      2. Login account completely 
+      3. Please enter "word" first and then paste this script into URL box:
+      [script]
+      4. Press "ENTER" it's will show blank page and show cookie from HoYoLAB, select all and copy into textbox this:
+  manual:
+    title: Input manual
+    description: Input cookie token manual to unselect cookie useless
+    howto: |
+      1. Enter site [url]
+      2. Login account completely 
+      3. Press F12
+      4. Goto Application -> Cookies -> [url]
+      5. You can notice “Filter” textbox with you must find 3 field this:
+          - ltuid
+          - ltoken
+          - cookie_token
+      6. Get “Value” from key (Ex. ltuid, ltoken) into as follows:
+
+# Add account (E-mail & Password)
+mail:
+  title: Login with E-mail
+  text:
+    email: E-mail or Username
+    password: Password
+    alert: In server will not store E-mail and Password
+
+# Add account (UID)
+uid:
+  title: Login with UID
+  text:
+    uid: UID
+
+# Add account (Mobile)
+mobile:
+  title: Login with Mobile
+  text:
+    mobile: Phone number (+86)
+    otpcode: OTP Code
+    alert: In server will not store phone number
+  button:
+    sendotp: Send OTP Code
+    waiting: | 
+      [seconds] seconds.
+
+# Add account (Select player)
+select_player:
+  title: Please select your player
+  text:
+    nickname: Nickname account
+
+# Confrim service
+confirm_service:
+  text:
+    accept: I accept "[term]" and "[policy]" to you.
+    term: Term of service
+    policy: Privacy and policy
+    url_term: https://hutao-login.m307.dev/term
+    url_policy: https://hutao-login.m307.dev/policy
+
+# If success
+success:
+  title: Success
+  description: Please wait bot complete this setup. If login success in bot. You can close this page 
+
+# If error
+error:
+  title: Error
+  description: Server can't to connect to "[botname]" Please contact bot author or Hu Tao bot team us
+  box: ERROR_CODE "[error]"
+
+# Error list
+errors:
+  account_fail: Get account failed. Please remove this account and login again.
+  login_fail: Login failed. Please try again
+  auth_fail: Please login complete in step-1
+  login_limit: You has been limit this login. Please wait [retry_after] seconds and try again.
+  password_limit: You has been limit from HoYoLAB. Please with  20 minutes and try again.
+  server_error: Server error. Please report this us
