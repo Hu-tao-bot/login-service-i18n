@@ -39,10 +39,14 @@ add_account:
 server:
   oversea:
     title: เซิฟเวอร์ต่างประเทศ
-    description: "เซิฟเวอร์นี้จะรองรับเฉพาะสมัครด้วย Hoyolab ประเทศที่รองรับ: USA, Europe, Asia, Taiwan และ Hong kong"
+    description: |
+      เซิฟเวอร์นี้จะรองรับเฉพาะสมัครด้วย Hoyolab 
+      ประเทศที่รองรับ: USA, Europe, Asia, Taiwan และ Hong kong
   cn:
     title: เซิฟเวอร์ประเทศจีน
-    description: "เซิฟเวอร์นี้จะรองรับเฉพาะสมัครด้วย BBS Mihoyo เท่านั้น ประเทศที่รองรับ: China"
+    description: |
+      เซิฟเวอร์นี้จะรองรับเฉพาะสมัครด้วย BBS Mihoyo 
+      ประเทศที่รองรับ: China
 
 # Add account (Token)
 token:
@@ -61,9 +65,8 @@ token:
     howto: |
       1. เข้าเว็บไซต์ [url]
       2. เข้าสู่ระบบให้เรียบร้อย
-      3. โปรดนำ “Script” นี้ไปวางไว้บนช่อง URL (โปรดเขียนคำว่า “java” ไว้ข้างหน้าก่อนวาง Script):
-      [script]
-      4. นำ Token ที่แสดงที่อยู่หน้าของคุณมาวางที่ช่องว่างกล่องข้อความนี้ 
+      3. โปรดกรอกคำว่า "java" จากนั้นนำ Script ไปวางไว้ช่องกรอก URL:
+      4. จากนั้นทำการ "ENTER" ระบบจะทำการโชว์ข้อมูล Cookie จากเว็บ Hoyolab ของท่าน และทำการคัดลอกมาวางไว้ในช่องนี้:
   manual:
     title: Input manual
     description: กรอก Cookie token ด้วยตัวเองเพื่อต้องการนำ Cookie ที่ไม่จำเป็นออก
