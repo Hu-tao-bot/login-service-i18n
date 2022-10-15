@@ -11,7 +11,7 @@ fs.readdir("./i18n", (err, data) => {
         const filename = lang.split(".")[0];
         try {
             const json_data = yaml.load(fs.readFileSync(`./i18n/${lang}`, 'utf8'));
-            fs.writeFileSync(`./dist/${filename}.json`, JSON.stringify(dotNotate(json_data), null, 4), "utf-8")
+            fs.writeFileSync(`./dist/${filename}.json`, JSON.stringify(dotNotate(json_data)), "utf-8")
         }catch(e){
             throw e;
         }
