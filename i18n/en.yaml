@@ -1,3 +1,13 @@
+# Footer
+footer:
+  title: Copyright 2022 Hu tao bot
+  made_by: Made with 💖 by [team_name]
+
+# URL
+url:
+  enka: "https://enka.network"
+  team: "https://github.com/Hu-tao-bot"
+
 # Stepper
 stepper:
   login: Login Discord
@@ -17,6 +27,7 @@ button:
   logout: Logout
   confirm: Confirm
   add_account: Add account
+  cancel: Cancel
   remove_account: Remove account
 
 # Add accounts
@@ -24,7 +35,7 @@ add_account:
   select: Please select method login
   token:
     title: Token
-    description: Login with token or cookie from Hoyolab site (ltuid, ltoken และ cookie_token)
+    description: Login with token or cookie from Hoyolab site (ltuid, ltoken and cookie_token)
   mail:
     title: E-mail
     description: Login with E-mail and Password from Hoyolab
@@ -59,8 +70,9 @@ token:
     id: Account (ltuid or account_id)
     token: Token (ltoken)
     cookie_token: Cookie token (cookie_token) 
-  image:
-    gif_script: https://i.imgur.com/OQ8arx0.gif
+    question_text: If you not understand. You can see GIF picture from url [url]
+    question_url: https://i.imgur.com/OQ8arx0.gif
+
   script:
     title: Script token
     description: Get cookie data with using script 
@@ -116,8 +128,12 @@ select_player:
   text:
     nickname: Nickname account
 
+delete_accont:
+  title: Are you sure remove these account?
+
 # Confrim service
 confirm_service:
+  title: Confirm account selection
   text:
     accept: I accept "[term]" and "[policy]" to you.
     term: Term of service
@@ -133,8 +149,8 @@ success:
 # If error
 error:
   title: Error
-  description: Server can't to connect to "[botname]" Please contact bot author or Hu Tao bot team us
-  box: ERROR_CODE "[error]"
+  description: Server can't to connect to bot provider. Please contact bot author or Hu Tao bot team us
+  box: "ERROR_CODE:"
 
 # Error list
 errors:
@@ -144,3 +160,8 @@ errors:
   login_limit: You has been limit this login. Please wait [retry_after] seconds and try again.
   password_limit: You has been limit from HoYoLAB. Please with  20 minutes and try again.
   server_error: Server error. Please report this us
+  no_accept: Please accept "[term]" and "[policy]"
+  otp_failed: Send OTP failed. Please wait a few hours and try again
+  mobile_not_registered: This mobile not registered
+  invalid_uid: Invalid UID
+  open_oauth_failed: Failed to open Discord OAuth popup
