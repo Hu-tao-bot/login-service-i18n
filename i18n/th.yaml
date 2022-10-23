@@ -70,7 +70,7 @@ token:
     id: Account (ltuid หรือ account_id)
     token: Token (ltoken)
     cookie_token: Cookie token (cookie_token) 
-    question_text: หากไม่เข้าใจ สามารถดูภาพ GIF ได้โดยที่ [url_]
+    question_text: หากไม่เข้าใจ สามารถดูภาพ GIF ได้โดยที่ [url]
     question_url: https://i.imgur.com/OQ8arx0.gif
 
   script:
