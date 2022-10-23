@@ -164,4 +164,5 @@ errors:
   otp_failed: Send OTP failed. Please wait a few hours and try again
   mobile_not_registered: This mobile not registered
   invalid_uid: Invalid UID
+  invalid_mobile: Invalid mobile
   open_oauth_failed: Failed to open Discord OAuth popup
