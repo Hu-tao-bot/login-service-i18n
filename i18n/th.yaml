@@ -168,4 +168,5 @@ errors:
   otp_failed: ส่ง OTP ไม่สำเร็จ โปรดรอสักพักแล้วลองใหม่อีกครั้ง
   mobile_not_registered: เบอร์โทรนี้ไม่ได้ถูกลงทะเบียนไว้
   invalid_uid: รูปแบบ UID ไม่ถูกต้อง
+  invalid_mobile: รูปแบบเบอร์โทรมือถือไม่ถูกต้อง
   open_oauth_failed: ไม่สามารถเปิดหน้าต่าง Discord OAuth ได้'
