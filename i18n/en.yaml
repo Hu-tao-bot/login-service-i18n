@@ -22,6 +22,7 @@ application:
 # Button
 button:
   next: Next
+  pervious: Back
   login_discord: Login with Discord
   login_account: Login
   logout: Logout

@@ -22,6 +22,7 @@ application:
 # Button
 button:
   next: ถัดไป
+  pervious: ย้อนกลับ
   login_discord: เข้าสู่ระบบด้วย Discord
   login_account: เข้าสู่ระบบ
   logout: ออกจากระบบ
