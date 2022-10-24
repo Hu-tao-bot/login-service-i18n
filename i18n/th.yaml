@@ -129,8 +129,9 @@ select_player:
   text:
     nickname: ชื่อเล่นบัญชี
 
-delete_accont:
-  title: คุณต้องการลบบัญชีนี้หรือไม่?
+delete_account:
+  title: ลบบัญชีนี้
+  description: คุณต้องการลบบัญชีนี้หรือไม่?
 
 # Confrim service
 confirm_service:

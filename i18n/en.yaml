@@ -129,8 +129,9 @@ select_player:
   text:
     nickname: Nickname account
 
-delete_accont:
-  title: Are you sure remove these account?
+delete_account:
+  title: Delete account
+  description: Are you sure remove these account?
 
 # Confrim service
 confirm_service:
