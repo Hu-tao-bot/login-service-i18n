@@ -117,7 +117,7 @@ mobile:
   text:
     mobile: Phone number (+86)
     otpcode: OTP Code
-    alert: In server will not store phone number
+    alert: Mobile phone number are not stored on our servers
   button:
     sendotp: Send OTP Code
     waiting: | 
