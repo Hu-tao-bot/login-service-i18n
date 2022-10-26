@@ -71,7 +71,7 @@ token:
     id: Account (ltuid or account_id)
     token: Token (ltoken)
     cookie_token: Cookie token (cookie_token) 
-    question_text: If you not understand. You can see GIF picture from url [url]
+    question_text: if you don't understand. You can see the GIF image from the URL [url]
     question_url: https://i.imgur.com/WQGr0x2.gif
 
   script:
@@ -80,9 +80,9 @@ token:
     howto: |
       1. Enter site [url]
       2. Login account completely 
-      3. Please enter "word" first and then paste this script into URL box:
+      3. Please enter "java" first and then paste this script into URL box:
       [script]
-      4. Press "ENTER" it's will show blank page and show cookie from HoYoLAB, select all and copy into textbox this:
+      4. Now press "ENTER" you will see a blank page and a cookie from HoYoLAB. Press the copy button and paste it into the box below.:
   manual:
     title: Input manual
     description: Input cookie token manual to unselect cookie useless
@@ -103,7 +103,7 @@ mail:
   text:
     email: E-mail or Username
     password: Password
-    alert: In server will not store E-mail and Password
+    alert: E-mail and Password are not stored on our servers
 
 # Add account (UID)
 uid:
@@ -146,7 +146,7 @@ confirm_service:
 # If success
 success:
   title: Success
-  description: Please wait bot complete this setup. If login success in bot. You can close this page 
+  description: Please wait while this setup completes. When successfully logged in to the bot. You can close this page 
 
 # If error
 error:
