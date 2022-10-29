@@ -10,7 +10,7 @@ url:
 
 # Stepper
 stepper:
-  login: Login Discord
+  login: Login with Discord
   accounts: Select account
   confirm: Confirm
 
@@ -33,19 +33,19 @@ button:
 
 # Add accounts
 add_account:
-  select: Please select method login
+  select: Please select a login method
   token:
     title: Token
-    description: Login with token or cookie from Hoyolab site (ltuid, ltoken and cookie_token)
+    description: Login with token or cookie from the Hoyolab website (ltuid, ltoken and cookie_token)
   mail:
     title: E-mail
-    description: Login with E-mail and Password from Hoyolab
+    description: Login with E-mail and Password usingg Hoyolab
   uid:
     title: UID
-    description: Login with UID from Genshin Impact game
+    description: Login with Genshin Impact's game UID
   mobile:
     title: Mobile
-    description: Login with mobile (Support in china player only)
+    description: Login with mobile (Only support China players)
 
 # Add account (Server selection)
 server:
@@ -53,7 +53,7 @@ server:
     title: Oversea server
     description: |
       This server will support for register from Hoyolab 
-      Country support: USA, Europe, Asia, Taiwan and Hong kong
+      Country support: USA, Europe, Asia, TW/HK/MO
   cn:
     title: China server
     description: |
@@ -99,7 +99,7 @@ token:
 
 # Add account (E-mail & Password)
 mail:
-  title: Login with E-mail
+  title: Login with E-mail and Password
   text:
     email: E-mail or Username
     password: Password
@@ -131,13 +131,13 @@ select_player:
 
 delete_account:
   title: Delete account
-  description: Are you sure remove these account?
+  description: Are you sure you want to delete this account?
 
 # Confrim service
 confirm_service:
   title: Confirm account selection
   text:
-    accept: I accept "[term]" and "[policy]" to you.
+    accept: I accept the "[term]" and "[policy]"
     term: Term of service
     policy: Privacy and policy
     url_term: https://hutao-login.m307.dev/term
