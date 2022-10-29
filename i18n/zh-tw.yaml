@@ -1,0 +1,172 @@
+# Footer
+footer:
+  title: Hu tao bot 2022 版權所有
+  made_by: 由 [team_name] 製作 💖 
+
+# URL
+url:
+  enka: "https://enka.network"
+  team: "https://github.com/Hu-tao-bot"
+
+# Stepper
+stepper:
+  login: 使用 Discord 登入
+  accounts: 選擇帳戶
+  confirm: 確認
+
+# Application
+application:
+  title: 應用程式
+  description: 敘述
+
+# Button
+button:
+  next: 下一步
+  pervious: 上一步
+  login_discord: 使用 Discord 登入
+  login_account: 登入
+  logout: 登出
+  confirm: 確認
+  add_account: 新增帳戶
+  cancel: 取消
+  remove_account: 移除帳戶
+
+# Add accounts
+add_account:
+  select: 請選擇一個登入方式
+  token:
+    title: Token
+    description: 從 Hoyolab 的網站中使用 Cookie 登入 (ltuid, ltoken, cookie_token)
+  mail:
+    title: 電子郵件及密碼
+    description: 使用 Hoyoverse 的電子郵件及密碼登入
+  uid:
+    title: UID
+    description: 使用原神遊戲中的 UID 登入
+  mobile:
+    title: 手機
+    description: 使用手機登入（僅支援中國服玩家）
+
+# Add account (Server selection)
+server:
+  oversea:
+    title: 國際服
+    description: |
+      支援 Hoyolab 的所有玩家
+      國家: 美國, 歐洲, 亞洲, 台港澳
+  cn:
+    title: 中國服
+    description: |
+      支援米遊社 BBS 的玩家
+      國家: 中國
+
+# Add account (Token)
+token:
+  title: 使用 Token 登入
+  howto: 如何取得 Token
+  text:
+    url_oversea: https://hoyolab.com
+    url_cn: https://bbs.mihoyo.com/ys
+    js: script:check = document.cookie.includes('account_id') && document.cookie.includes('cookie_token') || alert('Please logout and log back in before trying again, cookie is currently expired/invalid!'); cookie=document.cookie.match(/(lt(oken|uid)|cookie_token)=(.*?);/gm).join(" "); check && document.write(cookie + `<br><button onclick="navigator.clipboard.writeText('${cookie}')">Click here to copy!</button>`)
+    id: Account (ltuid or account_id)
+    token: Token (ltoken)
+    cookie_token: Cookie token (cookie_token) 
+    question_text: if you don't understand. You can see the GIF image from the URL [url]
+    question_url: https://i.imgur.com/WQGr0x2.gif
+
+  script:
+    title: Script token
+    description: Get cookie data with using script 
+    howto: |
+      1. Enter site [url]
+      2. Login account completely 
+      3. Please enter "java" first and then paste this script into URL box:
+      [script]
+      4. Now press "ENTER" you will see a blank page and a cookie from HoYoLAB. Press the copy button and paste it into the box below.:
+  manual:
+    title: Input manual
+    description: Input cookie token manual to unselect cookie useless
+    howto: |
+      1. Enter site [url]
+      2. Login account completely 
+      3. Press F12
+      4. Goto Application -> Cookies -> [url]
+      5. You can notice “Filter” textbox with you must find 3 field this:
+          - ltuid
+          - ltoken
+          - cookie_token
+      6. Get “Value” from key (Ex. ltuid, ltoken) into as follows:
+
+# Add account (E-mail & Password)
+mail:
+  title: 使用電子郵件及密碼登入
+  text:
+    email: 電子郵件或使用者名稱
+    password: 密碼
+    alert: 我們不會以任何方式儲存你的電子郵件及密碼
+
+# Add account (UID)
+uid:
+  title: Login with UID
+  text:
+    uid: UID
+
+# Add account (Mobile)
+mobile:
+  title: Login with Mobile
+  text:
+    mobile: Phone number (+86)
+    otpcode: OTP Code
+    alert: Mobile phone number are not stored on our servers
+  button:
+    sendotp: Send OTP Code
+    waiting: | 
+      [seconds] seconds.
+
+# Add account (Select player)
+select_player:
+  title: 請選擇要新增的帳號
+  text:
+    nickname: 帳號暱稱
+
+delete_account:
+  title: 移除帳號
+  description: 請問你是否確認要移除該帳號？
+
+# Confrim service
+confirm_service:
+  title: 確認帳戶移除
+  text:
+    accept: 我同意 "[term]" 及 "[policy]"
+    term: 服務條款
+    policy: 隱私條款
+    url_term: https://hutao-login.m307.dev/term
+    url_policy: https://hutao-login.m307.dev/policy
+
+# If success
+success:
+  title: 成功
+  description: 請等待設置完成，當成功登入到機器人後，你便可以關閉這個頁面
+
+# If error
+error:
+  title: 錯誤
+  description: 伺服器無法連結至機器人端。請聯繫機器人的製作者或是胡桃團隊
+  box: "錯誤紀錄"
+
+# Error list
+errors:
+  account_fail: 帳戶取得失敗，請移除此帳戶後再試一次
+  login_fail: 帳戶登入失敗，請再試一次
+  auth_fail: 請在第1步驟中設置完畢
+  login_limit: 您已被進行流量限制，請在 [retry_after] 秒後再試一次
+  password_limit: 您已被 HoYoLAB 進行流量限制. 請在 20 分鐘後再試一次
+  server_error: 伺服器端發生錯誤，請聯繫機器人的製作者或是胡桃團隊
+  no_accept: 請同意 "[term]" 及 "[policy]"
+  otp_failed: OTP 發送錯誤，請在幾個小時候再試一次
+  mobile_not_registered: This mobile not registered
+  invalid_uid: Invalid UID
+  invalid_mobile: Invalid mobile
+  open_oauth_failed: 打開 Discord OAuth 彈窗失敗
+  account_fetch_fail: 無法取得帳戶資訊，請移除帳戶後再試一次
+  no_account: 您似乎沒有連結任何帳戶，請連結至少一個帳號後再試一次
