@@ -1,7 +1,7 @@
 # Footer
 footer:
-  title: Copyright 2022 Hu tao bot
-  made_by: Made with 💖 by [team_name]
+  title: Hu tao bot 2022 版权所有
+  made_by: 由 [team_name] 制作 💖 
 
 # URL
 url:
@@ -10,60 +10,60 @@ url:
 
 # Stepper
 stepper:
-  login: Login with Discord
-  accounts: Select account
-  confirm: Confirm
+  login: 使用 Discord 登入
+  accounts: 选择帐户
+  confirm: 确认
 
 # Application
 application:
-  title: Application
-  description: Description
+  title: 应用程式
+  description: 叙述
 
 # Button
 button:
-  next: Next
-  pervious: Back
-  login_discord: Login with Discord
-  login_account: Login
-  logout: Logout
-  confirm: Confirm
-  add_account: Add account
-  cancel: Cancel
-  remove_account: Remove account
+  next: 下一步
+  pervious: 上一步
+  login_discord: 使用 Discord 登入
+  login_account: 登入
+  logout: 登出
+  confirm: 确认
+  add_account: 新增帐户
+  cancel: 取消
+  remove_account: 移除帐户
 
 # Add accounts
 add_account:
-  select: Please select a login method
+  select: 请选择一个登入方式
   token:
     title: Token
-    description: Login with token or cookie from the Hoyolab website (ltuid, ltoken and cookie_token)
+    description: 从 Hoyolab 的网站中使用 Cookie 登入 (ltuid, ltoken, cookie_token)
   mail:
-    title: E-mail
-    description: Login with E-mail and Password usingg Hoyolab
+    title: 电子邮件及密码
+    description: 使用 Hoyoverse 的电子邮件及密码登入
   uid:
     title: UID
-    description: Login with Genshin Impact's game UID
+    description: 使用原神游戏中的 UID 登入
   mobile:
-    title: Mobile
-    description: Login with mobile (Only support China players)
+    title: 手机
+    description: 使用手机登入（仅支援中国服玩家）
 
 # Add account (Server selection)
 server:
   oversea:
-    title: Oversea server
+    title: 国际服
     description: |
-      This server will support for register from Hoyolab 
-      Country support: USA, Europe, Asia, TW/HK/MO
+      支援 Hoyolab 的所有玩家
+      国家: 美国, 欧洲, 亚洲, 台港澳
   cn:
-    title: China server
+    title: 中国服
     description: |
-      This server will support for register from BBS Mihoyo 
-      Country support: China
+      支援米游社 BBS 的玩家
+      国家: 中国
 
 # Add account (Token)
 token:
-  title: Login with token
-  howto: How to get token
+  title: 使用 Token 登入
+  howto: 如何取得 Token
   text:
     url_oversea: https://hoyolab.com
     url_cn: https://bbs.mihoyo.com/ys
@@ -99,11 +99,11 @@ token:
 
 # Add account (E-mail & Password)
 mail:
-  title: Login with E-mail and Password
+  title: 使用电子邮件及密码登入
   text:
-    email: E-mail or Username
-    password: Password
-    alert: E-mail and Password are not stored on our servers
+    email: 电子邮件或使用者名称
+    password: 密码
+    alert: 我们不会以任何方式储存你的电子邮件及密码
 
 # Add account (UID)
 uid:
@@ -125,48 +125,48 @@ mobile:
 
 # Add account (Select player)
 select_player:
-  title: Please select your player
+  title: 请选择要新增的帐号
   text:
-    nickname: Nickname account
+    nickname: 帐号昵称
 
 delete_account:
-  title: Delete account
-  description: Are you sure you want to delete this account?
+  title: 移除帐号
+  description: 请问你是否确认要移除该帐号？
 
 # Confrim service
 confirm_service:
-  title: Confirm account selection
+  title: 确认帐户移除
   text:
-    accept: I accept the "[term]" and "[policy]"
-    term: Term of service
-    policy: Privacy and policy
+    accept: 我同意 "[term]" 及 "[policy]"
+    term: 服务条款
+    policy: 隐私条款
     url_term: https://hutao-login.m307.dev/term
     url_policy: https://hutao-login.m307.dev/policy
 
 # If success
 success:
-  title: Success
-  description: Please wait while this setup completes. When successfully logged in to the bot. You can close this page 
+  title: 成功
+  description: 请等待设置完成，当成功登入到机器人后，你便可以关闭这个页面
 
 # If error
 error:
-  title: Error
-  description: Server can't to connect to bot provider. Please contact bot author or Hu Tao bot team us
-  box: "Full error"
+  title: 错误
+  description: 伺服器无法连结至机器人端。请联系机器人的制作者或是胡桃团队
+  box: "错误纪录"
 
 # Error list
 errors:
-  account_fail: Get account failed. Please remove this account and login again.
-  login_fail: Login failed. Please try again
-  auth_fail: Please login complete in step-1
-  login_limit: You has been limit this login. Please wait [retry_after] seconds and try again.
-  password_limit: You has been limit from HoYoLAB. Please with  20 minutes and try again.
-  server_error: Server error. Please report this us
-  no_accept: Please accept "[term]" and "[policy]"
-  otp_failed: Send OTP failed. Please wait a few hours and try again
+  account_fail: 帐户取得失败，请移除此帐户后再试一次
+  login_fail: 帐户登入失败，请再试一次
+  auth_fail: 请在第1步骤中设置完毕
+  login_limit: 您已被进行流量限制，请在 [retry_after] 秒后再试一次
+  password_limit: 您已被 HoYoLAB 进行流量限制. 请在 20 分钟后再试一次
+  server_error: 伺服器端发生错误，请联系机器人的制作者或是胡桃团队
+  no_accept: 请同意 "[term]" 及 "[policy]"
+  otp_failed: OTP 发送错误，请在几个小时候再试一次
   mobile_not_registered: This mobile not registered
   invalid_uid: Invalid UID
   invalid_mobile: Invalid mobile
-  open_oauth_failed: Failed to open Discord OAuth popup
-  account_fetch_fail: Failed to get account. Please "Delete account" and login again.
-  no_account: It's seem like you not have account linked. Let's add your first account
+  open_oauth_failed: 打开 Discord OAuth 弹窗失败
+  account_fetch_fail: 无法取得帐户资讯，请移除帐户后再试一次
+  no_account: 您似乎没有连结任何帐户，请连结至少一个帐号后再试一次
