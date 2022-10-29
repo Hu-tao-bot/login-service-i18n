@@ -152,7 +152,7 @@ success:
 error:
   title: Error
   description: Server can't to connect to bot provider. Please contact bot author or Hu Tao bot team us
-  box: "ERROR_CODE:"
+  box: "Full error"
 
 # Error list
 errors:
@@ -168,3 +168,5 @@ errors:
   invalid_uid: Invalid UID
   invalid_mobile: Invalid mobile
   open_oauth_failed: Failed to open Discord OAuth popup
+  account_fetch_fail: Failed to get account. Please "Delete account" and login again.
+  no_account: It's seem like you not have account linked. Let's add your first account

@@ -129,6 +129,10 @@ select_player:
   text:
     nickname: ชื่อเล่นบัญชี
 
+select_account:
+  title: "บัญชี Genshin"
+
+
 delete_account:
   title: ลบบัญชีนี้
   description: คุณต้องการลบบัญชีนี้หรือไม่?
@@ -152,7 +156,7 @@ success:
 error:
   title: เกิดข้อผิดพลาด
   description: ระบบไม่สามารถเชื่อมต่อกับผู้ให้บริการบอทได้ โปรดติดต่อผู้ให้บริการบอทหรือติดต่อทีม Hu tao bot
-  box: "ERROR_CODE:"
+  box: "Full error"
 
 # Success list
 success_list:
@@ -172,3 +176,5 @@ errors:
   invalid_uid: รูปแบบ UID ไม่ถูกต้อง
   invalid_mobile: รูปแบบเบอร์โทรมือถือไม่ถูกต้อง
   open_oauth_failed: ไม่สามารถเปิดหน้าต่าง Discord OAuth ได้'
+  account_fetch_fail: ไม่สามารถดึงบัญชีได้สำเร็จ โปรดลบบัญชีนี้และเข้าสู่ระบบใหม่อีกครั้ง
+  no_account: ดูเหมือนว่าจะไม่มีบัญชีนะ ลองมาเพิ่มบัญชีอันแรกกัน
