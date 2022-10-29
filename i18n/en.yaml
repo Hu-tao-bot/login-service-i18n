@@ -39,7 +39,7 @@ add_account:
     description: Login with token or cookie from the Hoyolab website (ltuid, ltoken and cookie_token)
   mail:
     title: E-mail
-    description: Login with E-mail and Password usingg Hoyolab
+    description: Login with E-mail and Password using Hoyolab
   uid:
     title: UID
     description: Login with Genshin Impact's game UID
@@ -151,22 +151,22 @@ success:
 # If error
 error:
   title: Error
-  description: Server can't to connect to bot provider. Please contact bot author or Hu Tao bot team us
+  description: Server cannot connect to the bot provider. Get in touch with the bot author or the Hu Tao bot team.
   box: "Full error"
 
 # Error list
 errors:
   account_fail: Get account failed. Please remove this account and login again.
   login_fail: Login failed. Please try again
-  auth_fail: Please login complete in step-1
-  login_limit: You has been limit this login. Please wait [retry_after] seconds and try again.
-  password_limit: You has been limit from HoYoLAB. Please with  20 minutes and try again.
+  auth_fail: Please login fully in step 1
+  login_limit: You have been rate limited. Please wait [retry_after] seconds and try again.
+  password_limit: You have been rate limited from HoYoLAB. Please wait for 20 minutes and try again.
   server_error: Server error. Please report this us
   no_accept: Please accept "[term]" and "[policy]"
-  otp_failed: Send OTP failed. Please wait a few hours and try again
+  otp_failed: Failed to send OTP. Please wait a few hours and try againn
   mobile_not_registered: This mobile not registered
   invalid_uid: Invalid UID
   invalid_mobile: Invalid mobile
   open_oauth_failed: Failed to open Discord OAuth popup
   account_fetch_fail: Failed to get account. Please "Delete account" and login again.
-  no_account: It's seem like you not have account linked. Let's add your first account
+  no_account: It looks like you do not have account linked. Let's add your first account
