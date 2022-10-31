@@ -57,7 +57,7 @@ server:
   cn:
     title: China server
     description: |
-      This server will support for register from BBS Mihoyo 
+      This server will support for register from BBS miHoYo 
       Country support: China
 
 # Add account (Token)
