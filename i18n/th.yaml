@@ -36,10 +36,10 @@ add_account:
   select: โปรดเลือกวิธีเข้าสู่ระบบ
   token:
     title: Token
-    description: เข้าสู่ระบบด้วย Token หรือ Cookie จากเว็บไซต์ Hoyolab (ltuid, ltoken และ cookie_token)
+    description: เข้าสู่ระบบด้วย Token หรือ Cookie จากเว็บไซต์ HoYoLAB (ltuid, ltoken และ cookie_token)
   mail:
     title: E-mail
-    description: เข้าสู่ระบบด้วย E-mail และ Password ผ่านเว็บไซต์ Hoyolab
+    description: เข้าสู่ระบบด้วย E-mail และ Password ผ่านเว็บไซต์ HoYoLAB
   uid:
     title: UID
     description: เข้าสู่ระบบด้วย UID จากในเกมส์ Genshin Impact
@@ -52,12 +52,12 @@ server:
   oversea:
     title: เซิฟเวอร์ต่างประเทศ
     description: |
-      เซิฟเวอร์นี้จะรองรับเฉพาะสมัครด้วย Hoyolab 
+      เซิฟเวอร์นี้จะรองรับเฉพาะสมัครด้วย HoYoLAB 
       ประเทศที่รองรับ: USA, Europe, Asia, Taiwan และ Hong kong
   cn:
     title: เซิฟเวอร์ประเทศจีน
     description: |
-      เซิฟเวอร์นี้จะรองรับเฉพาะสมัครด้วย BBS Mihoyo 
+      เซิฟเวอร์นี้จะรองรับเฉพาะสมัครด้วย BBS miHoYo 
       ประเทศที่รองรับ: China
 
 # Add account (Token)
@@ -67,12 +67,12 @@ token:
   text:
     url_oversea: https://hoyolab.com
     url_cn: https://bbs.mihoyo.com/ys
-    js: script:check = document.cookie.includes('account_id') && document.cookie.includes('cookie_token') || alert(''); cookie=document.cookie.match(/(lt(oken|uid)|cookie_token)=(.*?);/gm).join("โปรดออกจากระบบและเข้าสู่ระบบใหม่ก่อนที่จะลองอักครั้ง เนื่องจากว่า Cookie ของท่านตอนนี้หมดอายุ / ไม่พบ"); check && document.write(cookie + `<br><button onclick="navigator.clipboard.writeText('${cookie}')">กดปุ่มเพื่อคัดลอกที่นี่!</button>`)
+    js: script:d=document.cookie; c=d.includes('account_id') || alert('คุกกี้ไม่ถูกต้องหรือหมดอายุ โปรดออกจากระบบและเข้าสู่ระบบใหม่ก่อนที่จะลองอีกครั้ง!'); c && document.write(d)
     id: Account (ltuid หรือ account_id)
     token: Token (ltoken)
     cookie_token: Cookie token (cookie_token) 
     question_text: หากไม่เข้าใจ สามารถดูภาพ GIF ได้โดยที่ [url]
-    question_url: https://i.imgur.com/WQGr0x2.gif
+    question_url: https://imgur.com/pc8eYGU.gif
 
   script:
     title: Script token
