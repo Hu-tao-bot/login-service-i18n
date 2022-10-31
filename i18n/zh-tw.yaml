@@ -67,35 +67,35 @@ token:
   text:
     url_oversea: https://hoyolab.com
     url_cn: https://bbs.mihoyo.com/ys
-    js: script:check = document.cookie.includes('account_id') && document.cookie.includes('cookie_token') || alert('Please logout and log back in before trying again, cookie is currently expired/invalid!'); cookie=document.cookie.match(/(lt(oken|uid)|cookie_token)=(.*?);/gm).join(" "); check && document.write(cookie + `<br><button onclick="navigator.clipboard.writeText('${cookie}')">Click here to copy!</button>`)
-    id: Account (ltuid or account_id)
+    js: script:d=document.cookie; c=d.includes('account_id') || alert('Cookie 已無效或過期，請登出並登入後再試一次！'); c && document.write(d)
+    id: 帳號 (ltuid 或 account_id)
     token: Token (ltoken)
     cookie_token: Cookie token (cookie_token) 
-    question_text: if you don't understand. You can see the GIF image from the URL [url]
-    question_url: https://i.imgur.com/WQGr0x2.gif
+    question_text: 有操作上的問題嗎？你可以點擊旁邊的連結來查看操作過程的 GIF 圖片 [url]
+    question_url: https://imgur.com/pc8eYGU.gif
 
   script:
-    title: Script token
-    description: Get cookie data with using script 
+    title: 代碼
+    description: 使用 Javascript 代碼來自動獲取你的 Cookie
     howto: |
-      1. Enter site [url]
-      2. Login account completely 
-      3. Please enter "java" first and then paste this script into URL box:
+      1. 請至 [url]
+      2. 登入你的帳號
+      3. 在網址列中輸入 "java" 後貼上下方的代碼:
       [script]
-      4. Now press "ENTER" you will see a blank page and a cookie from HoYoLAB. Press the copy button and paste it into the box below.:
+      4. 接著按下 ENTER，你將會看到你的 Cookie，全選後復制，並在下方的文字框中貼上
   manual:
-    title: Input manual
-    description: Input cookie token manual to unselect cookie useless
+    title: 手動
+    description: 手動輸入你的 Cookie
     howto: |
-      1. Enter site [url]
-      2. Login account completely 
-      3. Press F12
-      4. Goto Application -> Cookies -> [url]
-      5. You can notice “Filter” textbox with you must find 3 field this:
+      1. 請至 [url]
+      2. 登入你的帳號
+      3. 按下鍵盤上的 F12
+      4. 點擊 Application -> Cookies -> [url]
+      5. 在 “Filter” 文字框中輸入以下 3 串文字:
           - ltuid
           - ltoken
           - cookie_token
-      6. Get “Value” from key (Ex. ltuid, ltoken) into as follows:
+      6. 找到每串文字對應的值，並將他們貼在下方對應的文字框中：
 
 # Add account (E-mail & Password)
 mail:
@@ -107,21 +107,21 @@ mail:
 
 # Add account (UID)
 uid:
-  title: Login with UID
+  title: 使用原神遊戲 UID 登入
   text:
     uid: UID
 
 # Add account (Mobile)
 mobile:
-  title: Login with Mobile
+  title: 使用手機號碼登入
   text:
-    mobile: Phone number (+86)
-    otpcode: OTP Code
-    alert: Mobile phone number are not stored on our servers
+    mobile: 手機號碼 (+86)
+    otpcode: OTP 驗證碼
+    alert: 我們不會以任何方式儲存你的手機號碼及 OTP 驗證碼
   button:
-    sendotp: Send OTP Code
+    sendotp: 發送 OTP 驗證碼
     waiting: | 
-      [seconds] seconds.
+      [seconds] 秒
 
 # Add account (Select player)
 select_player:
@@ -164,9 +164,9 @@ errors:
   server_error: 伺服器端發生錯誤，請聯繫機器人的製作者或是胡桃團隊
   no_accept: 請同意 "[term]" 及 "[policy]"
   otp_failed: OTP 發送錯誤，請在幾個小時候再試一次
-  mobile_not_registered: This mobile not registered
-  invalid_uid: Invalid UID
-  invalid_mobile: Invalid mobile
+  mobile_not_registered: 此手機號碼尚未註冊，請先註冊後再試一次
+  invalid_uid: 無效的 UID
+  invalid_mobile: 無效的手機號碼
   open_oauth_failed: 打開 Discord OAuth 彈窗失敗
   account_fetch_fail: 無法取得帳戶資訊，請移除帳戶後再試一次
   no_account: 您似乎沒有連結任何帳戶，請連結至少一個帳號後再試一次

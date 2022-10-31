@@ -67,12 +67,12 @@ token:
   text:
     url_oversea: https://hoyolab.com
     url_cn: https://bbs.mihoyo.com/ys
-    js: script:check = document.cookie.includes('account_id') && document.cookie.includes('cookie_token') || alert('Please logout and log back in before trying again, cookie is currently expired/invalid!'); cookie=document.cookie.match(/(lt(oken|uid)|cookie_token)=(.*?);/gm).join(" "); check && document.write(cookie + `<br><button onclick="navigator.clipboard.writeText('${cookie}')">Click here to copy!</button>`)
+    js: script:d=document.cookie; c=d.includes('account_id') || alert('Cookie is invalid or expired, please logout and log back in before trying again!'); c && document.write(d)
     id: Account (ltuid or account_id)
     token: Token (ltoken)
     cookie_token: Cookie token (cookie_token) 
     question_text: if you don't understand. You can see the GIF image from the URL [url]
-    question_url: https://i.imgur.com/WQGr0x2.gif
+    question_url: https://imgur.com/pc8eYGU.gif
 
   script:
     title: Script token
