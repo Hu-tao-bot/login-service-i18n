@@ -36,10 +36,10 @@ add_account:
   select: Please select a login method
   token:
     title: Token
-    description: Login with token or cookie from the Hoyolab website (ltuid, ltoken and cookie_token)
+    description: Login with token or cookie from the HoYoLAB website (ltuid, ltoken and cookie_token)
   mail:
     title: E-mail
-    description: Login with E-mail and Password using Hoyolab
+    description: Login with E-mail and Password using HoYoLAB
   uid:
     title: UID
     description: Login with Genshin Impact's game UID
@@ -52,7 +52,7 @@ server:
   oversea:
     title: Oversea server
     description: |
-      This server will support for register from Hoyolab 
+      This server will support for register from HoYoLAB 
       Country support: USA, Europe, Asia, TW/HK/MO
   cn:
     title: China server
@@ -163,7 +163,7 @@ errors:
   password_limit: You have been rate limited from HoYoLAB. Please wait for 20 minutes and try again.
   server_error: Server error. Please report this us
   no_accept: Please accept "[term]" and "[policy]"
-  otp_failed: Failed to send OTP. Please wait a few hours and try againn
+  otp_failed: Failed to send OTP. Please wait a few hours and try again.
   mobile_not_registered: This mobile not registered
   invalid_uid: Invalid UID
   invalid_mobile: Invalid mobile
