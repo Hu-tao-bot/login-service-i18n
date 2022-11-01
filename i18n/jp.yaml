@@ -1,0 +1,172 @@
+# Footer
+footer:
+  title: Copyright 2022 Hu tao bot
+  made_by: Made with 💖 by [team_name]
+
+# URL
+url:
+  enka: "https://enka.network"
+  team: "https://github.com/Hu-tao-bot"
+
+# Stepper
+stepper:
+  login: Discordでログイン
+  accounts: アカウント選択
+  confirm: 確認
+
+# Application
+application:
+  title: アプリケーション
+  description: 概要
+
+# Button
+button:
+  next: 次へ
+  pervious: 戻る
+  login_discord: Discordでログイン
+  login_account: ログイン
+  logout: ログアウト
+  confirm: 確定
+  add_account: アカウント追加
+  cancel: キャンセル
+  remove_account: アカウント削除
+
+# Add accounts
+add_account:
+  select: ログイン方法を選択してください
+  token:
+    title: トークン
+    description: HoYoLABウェブサイトからトークンまたはCookieでログイン (ltuid, ltoken と cookie_token)
+  mail:
+    title: E-mail
+    description: HoYoLABを利用し、メールアドレスとパスワードでログイン
+  uid:
+    title: UID
+    description: 原神のUIDでログイン
+  mobile:
+    title: 電話番号
+    description: 電話番号でログイン (中国版のみ対応)
+
+# Add account (Server selection)
+server:
+  oversea:
+    title: グローバルサーバー
+    description: |
+      このサーバーは、HoYoLABからの登録をサポートします。
+      対応国 : アメリカ、ヨーロッパ、アジア、TW/HK/MO
+  cn:
+    title: 中国サーバー
+    description: |
+      このサーバーは、BBS miHoYoからの登録をサポートします。
+      対応国 : 中国
+
+# Add account (Token)
+token:
+  title: トークンを使用してログイン
+  howto: トークンの取得方法
+  text:
+    url_oversea: https://hoyolab.com
+    url_cn: https://bbs.mihoyo.com/ys
+    js: script:d=document.cookie; c=d.includes('account_id') || alert('Cookieが無効か期限切れです。再度ログインし直してやり直してください'); c && document.write(d)
+    id: アカウント (ltuid か account_id)
+    token: トークン (ltoken)
+    cookie_token: Cookie トークン (cookie_token) 
+    question_text: 分からない場合はこのURLからGIF画像が見れます [url]
+    question_url: https://imgur.com/pc8eYGU.gif
+
+  script:
+    title: トークンスクリプト
+    description: スクリプトを使用してCookieデータを取得
+    howto: |
+      1. サイトを開く [url]
+      2. アカウントに正しくログイン
+      3. 最初に "java "と入力してから、このスクリプトをURLボックスに貼り付けてください:
+      [script]
+      4. ここで「ENTER」を押すと、空白のページとHoYoLABからのCookieが表示されます。コピーボタンを押し、下のボックスにペーストしてください:
+  manual:
+    title: 手動入力
+    description: cookieトークンを手動入力し、無効なCookieの選択を解除
+    howto: |
+      1. サイトを開く [url]
+      2. アカウントに正しくログイン
+      3. F12を押す
+      4. アプリケーション(Application) -> Cookie -> [url]
+      5. フィルター(Filter) を利用して以下の3つのフィールドを探す:
+          - ltuid
+          - ltoken
+          - cookie_token
+      6. キー（例:ltuid, ltoken）から、以下のように「値」を取得する
+
+# Add account (E-mail & Password)
+mail:
+  title: メールアドレスとパスワードでログイン
+  text:
+    email: 電子メールまたはユーザー名
+    password: パスワード
+    alert: 電子メールおよびパスワードは、我々のサーバーに保存されません
+
+# Add account (UID)
+uid:
+  title: UIDでログイン
+  text:
+    uid: UID
+
+# Add account (Mobile)
+mobile:
+  title: 電話番号でログイン
+  text:
+    mobile: 電話番号 (+86)
+    otpcode: ワンタイムパスワード
+    alert: 携帯電話番号はサーバーに保存されません。
+  button:
+    sendotp: ワンタイムパスワードを送信
+    waiting: | 
+      [seconds] 秒
+
+# Add account (Select player)
+select_player:
+  title: プレーヤーを選択してください
+  text:
+    nickname: アカウントニックネーム
+
+delete_account:
+  title: アカウント削除
+  description: このアカウントを削除してもよろしいですか？
+
+# Confrim service
+confirm_service:
+  title: アカウント選択の確認
+  text:
+    accept: 私は "[term]" と "[policy]" に同意します
+    term: 利用規約(Term of service)
+    policy: プライバシーポリシー(Privacy and policy)
+    url_term: https://hutao-login.m307.dev/term
+    url_policy: https://hutao-login.m307.dev/policy
+
+# If success
+success:
+  title: 成功!
+  description: 設定が完了するまでお待ちください。botへのログインに成功したらこのページを閉じることができます 
+
+# If error
+error:
+  title: エラー！
+  description: サーバーがbotプロバイダーに接続できません。bot製作者かHu Tao botチームに連絡してください
+  box: "エラー全文"
+
+# Error list
+errors:
+  account_fail: アカウントの取得に失敗しました。このアカウントを削除して、もう一度ログインしてください
+  login_fail: ログインに失敗しました。もう一度お試しください
+  auth_fail: 手順1でログインを完了させてください
+  login_limit: レート制限を受けました。[retry_after]秒後に再試行してください
+  password_limit: HoYoLABからレート制限されています。約20分後に再試行してください
+  server_error: サーバーエラー 私達にご連絡ください
+  no_accept: "[term]" と "[policy]"に同意してください
+  otp_failed: ワンタイムパスワードの送信に失敗しました。数時間後に再度お試しください
+  mobile_not_registered: この電話番号は登録されていません
+  invalid_uid: 無効なUID
+  invalid_mobile: 無効な電話番号
+  open_oauth_failed: Discord OAuthのポップアップを開くのに失敗しました
+  account_fetch_fail: アカウントの取得に失敗しました。アカウントを削除して、再度ログインしてください
+  no_account: アカウントがリンクされていないようです。最初のアカウントを追加してみましょう
