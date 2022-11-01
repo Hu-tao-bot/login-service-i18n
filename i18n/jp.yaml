@@ -162,7 +162,7 @@ errors:
   login_limit: レート制限を受けました。[retry_after]秒後に再試行してください
   password_limit: HoYoLABからレート制限されています。約20分後に再試行してください
   server_error: サーバーエラー 私達にご連絡ください
-  no_accept: "[term]" と "[policy]"に同意してください
+  no_accept: '"[term]" と "[policy]"に同意してください'
   otp_failed: ワンタイムパスワードの送信に失敗しました。数時間後に再度お試しください
   mobile_not_registered: この電話番号は登録されていません
   invalid_uid: 無効なUID
