@@ -137,7 +137,7 @@ delete_account:
 
 # Confrim service
 confirm_service:
-  title: 确认帐户移除
+  title: 确认帐户
   text:
     accept: 我同意 "[term]" 及 "[policy]"
     term: 服务条款
