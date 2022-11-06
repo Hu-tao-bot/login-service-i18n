@@ -30,6 +30,8 @@ button:
   add_account: เพิ่มบัญชี
   cancel: ยกเลิก
   remove_account: ลบบัญชี
+  copy: คัดลอก
+  copied: คัดลอกแล้ว!
 
 # Add accounts
 add_account:

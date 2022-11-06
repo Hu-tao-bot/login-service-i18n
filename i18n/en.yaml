@@ -30,6 +30,8 @@ button:
   add_account: Add account
   cancel: Cancel
   remove_account: Remove account
+  copy: Copy
+  copied: Copied!
 
 # Add accounts
 add_account:

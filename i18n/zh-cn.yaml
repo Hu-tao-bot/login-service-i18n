@@ -30,6 +30,8 @@ button:
   add_account: 新增帐户
   cancel: 取消
   remove_account: 移除帐户
+  copy: 复制
+  copied: 已复制！
 
 # Add accounts
 add_account:

@@ -30,6 +30,8 @@ button:
   add_account: アカウント追加
   cancel: キャンセル
   remove_account: アカウント削除
+  copy: コピー
+  copied: コピーしました！
 
 # Add accounts
 add_account:
