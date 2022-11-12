@@ -172,3 +172,8 @@ errors:
   open_oauth_failed: Discord OAuthのポップアップを開くのに失敗しました
   account_fetch_fail: アカウントの取得に失敗しました。アカウントを削除して、再度ログインしてください
   no_account: アカウントがリンクされていないようです。最初のアカウントを追加してみましょう
+
+# Maintenance
+maintenance:
+  title:  サーバーはメンテナンス中でした
+  description: メンテナンス中。サービスは {time} に復元されます

@@ -172,3 +172,8 @@ errors:
   open_oauth_failed: Failed to open Discord OAuth popup
   account_fetch_fail: Failed to get account. Please "Delete account" and login again.
   no_account: It looks like you do not have account linked. Let's add your first account
+
+# Maintenance
+maintenance:
+  title:  Server was under maintenancing
+  description: The website is currently under maintenance. Service will be back online at {time}
