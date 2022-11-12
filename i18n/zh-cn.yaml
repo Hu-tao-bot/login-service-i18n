@@ -176,4 +176,4 @@ errors:
 # Maintenance
 maintenance:
   title:  服务器正在维护中
-  description: 网站正在维护当中. 将会在 {time} 恢复服务
+  description: 网站正在维护当中. 将会在 [time] 恢复服务

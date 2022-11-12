@@ -176,4 +176,4 @@ errors:
 # Maintenance
 maintenance:
   title:  服務器維護中
-  description: 網站正在維護當中. 將會在 {time} 恢復服務
+  description: 網站正在維護當中. 將會在 [time] 恢復服務

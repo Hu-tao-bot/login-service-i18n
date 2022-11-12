@@ -176,4 +176,4 @@ errors:
 # Maintenance
 maintenance:
   title:  サーバーはメンテナンス中でした
-  description: メンテナンス中。サービスは {time} に復元されます
+  description: メンテナンス中。サービスは [time] に復元されます

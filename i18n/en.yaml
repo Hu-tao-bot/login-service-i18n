@@ -176,4 +176,4 @@ errors:
 # Maintenance
 maintenance:
   title:  Server was under maintenancing
-  description: The website is currently under maintenance. Service will be back online at {time}
+  description: The website is currently under maintenance. Service will be back online at [time]
