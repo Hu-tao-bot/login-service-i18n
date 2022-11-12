@@ -172,3 +172,8 @@ errors:
   open_oauth_failed: 打開 Discord OAuth 彈窗失敗
   account_fetch_fail: 無法取得帳戶資訊，請移除帳戶後再試一次
   no_account: 您似乎沒有連結任何帳戶，請連結至少一個帳號後再試一次
+
+# Maintenance
+maintenance:
+  title:  服務器維護中
+  description: 網站正在維護當中. 將會在 {time} 恢復服務
