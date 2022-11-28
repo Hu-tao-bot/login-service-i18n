@@ -37,7 +37,7 @@ button:
 add_account:
   select: 請選擇一個登入方式
   token:
-    title: Cookie
+    title: 曲奇餅
     description: 從 Hoyolab 的網站中使用 Cookie 登入 (ltuid, ltoken, cookie_token)
   mail:
     title: 電子郵件及密碼
