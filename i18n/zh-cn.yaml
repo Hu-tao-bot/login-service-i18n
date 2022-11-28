@@ -37,7 +37,11 @@ button:
 add_account:
   select: 请选择一个登入方式
   token:
+<<<<<<< HEAD
     title: 曲奇饼
+=======
+    title: Token
+>>>>>>> parent of 1e5dbc2 (Change "token" to "cookie")
     description: 从 Hoyolab 的网站中使用 Cookie 登入 (ltuid, ltoken, cookie_token)
   mail:
     title: 电子邮件及密码

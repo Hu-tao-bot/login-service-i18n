@@ -37,7 +37,7 @@ button:
 add_account:
   select: Please select a login method
   token:
-    title: Cookie
+    title: Token
     description: Login with token or cookie from the HoYoLAB website (ltuid, ltoken and cookie_token)
   mail:
     title: E-mail
