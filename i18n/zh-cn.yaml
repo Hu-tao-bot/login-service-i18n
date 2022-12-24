@@ -10,61 +10,61 @@ url:
 
 # Stepper
 stepper:
-  login: 使用 Discord 登入
-  accounts: 选择帐户
+  login: 使用 Discord 登录
+  accounts: 选择账号
   confirm: 确认
 
 # Application
 application:
-  title: 应用程式
+  title: 应用程序
   description: 叙述
 
 # Button
 button:
   next: 下一步
   pervious: 上一步
-  login_discord: 使用 Discord 登入
-  login_account: 登入
+  login_discord: 使用 Discord 登录
+  login_account: 登录
   logout: 登出
   confirm: 确认
-  add_account: 新增帐户
+  add_account: 新增账号
   cancel: 取消
-  remove_account: 移除帐户
+  remove_account: 删除账号
   copy: 复制
   copied: 已复制！
 
 # Add accounts
 add_account:
-  select: 请选择一个登入方式
+  select: 请选择你的登录方式
   token:
     title: Cookie
-    description: 从 Hoyolab 的网站中使用 Cookie 登入 (ltuid, ltoken, cookie_token)
+    description: 使用从 Hoyolab 调取的 cookie 登录 (ltuid, ltoken, cookie_token)
   mail:
     title: 电子邮件及密码
-    description: 使用 Hoyoverse 的电子邮件及密码登入
+    description: 用 Hoyoverse 的电子邮件及密码登录
   uid:
     title: UID
-    description: 使用原神游戏中的 UID 登入
+    description: 用原神 UID 登录
   mobile:
-    title: 手机
-    description: 使用手机登入（仅支援中国服玩家）
+    title: 手机号
+    description: 用手机号登录（仅支持中国服玩家）
 
 # Add account (Server selection)
 server:
   oversea:
     title: 国际服
     description: |
-      支援 Hoyolab 的所有玩家
+      支持 Hoyolab 的所有玩家
       国家: 美国, 欧洲, 亚洲, 台港澳
   cn:
     title: 中国服
     description: |
-      支援米游社 BBS 的玩家
+      支持米游社的玩家
       国家: 中国
 
 # Add account (Token)
 token:
-  title: 使用 Token 登入
+  title: 用 Token 登录
   howto: 如何取得 Token
   text:
     url_oversea: https://hoyolab.com
@@ -73,71 +73,71 @@ token:
     id: 帐号 (ltuid 或 account_id)
     token: Token (ltoken)
     cookie_token: Cookie token (cookie_token) 
-    question_text: 有操作上的问题吗？你可以点击旁边的连结来查看操作过程的 GIF 图片 [url]
+    question_text: 不会操作吗？可以点击旁边的链接生成GIF以观看过程 [url]
     question_url: https://imgur.com/pc8eYGU.gif
 
   script:
     title: 代码
     description: 使用 Javascript 代码来自动获取你的 Cookie
     howto: |
-      1. 请至 [url]
-      2. 登入你的帐号
-      3. 在网址列中输入 "java" 后贴上下方的代码:
+      1. 请到 [url]
+      2. 登录你的账号
+      3. 在搜索栏中输入 "java" 后粘贴下方的代码:
       [script]
-      4. 接着按下 ENTER，你将会看到你的 Cookie，全选后复制，并在下方的文字框中贴上
+      4. 按下 ENTER，之后你将会看到你的 Cookie，全选并复制，粘贴在下方的文字框中
   manual:
     title: 手动
     description: 手动输入你的 Cookie
     howto: |
-      1. 请至 [url]
-      2. 登入你的帐号
-      3. 按下键盘上的 F12
-      4. 点击 Application -> Cookies -> [url]
-      5. 在 “Filter” 文字框中输入以下 3 串文字:
+      1. 请到 [url]
+      2. 登录你的账号
+      3. 按下键盘上的 F12 
+      4. 点击 应用程序  -> Cookies -> [url]
+      5. 在 “筛选器” 文字框中输入以下 3 串文字:
           - ltuid
           - ltoken
           - cookie_token
-      6. 找到每串文字对应的值，并将他们贴在下方对应的文字框中：
+      6. 找到每串文字所对应的值，并将他们依次粘贴于下方对应的文字框中：
 
 # Add account (E-mail & Password)
 mail:
-  title: 使用电子邮件及密码登入
+  title: 使用电子邮件及密码登录
   text:
-    email: 电子邮件或使用者名称
+    email: 电子邮件或用户名
     password: 密码
     alert: 我们不会以任何方式储存你的电子邮件及密码
 
 # Add account (UID)
 uid:
-  title: 使用原神游戏 UID 登入
+  title: 使用原神 UID 登录
   text:
     uid: UID
 
 # Add account (Mobile)
 mobile:
-  title: 使用手机号码登入
+  title: 用手机号登录
   text:
     mobile: 手机号码 (+86)
-    otpcode: OTP 验证码
-    alert: 我们不会以任何方式储存你的手机号码及 OTP 验证码
+    otpcode: 验证码
+    alert: 我们不会以任何方式储存你的手机号码及验证码
   button:
-    sendotp: 发送 OTP 验证码
-    waiting: | 
+    sendotp: 发送验证码
+    waiting:  | 
       [seconds] 秒
 
 # Add account (Select player)
 select_player:
-  title: 请选择要新增的帐号
+  title: 请选择要新增的账号
   text:
-    nickname: 帐号昵称
+    nickname: 账号昵称
 
 delete_account:
-  title: 移除帐号
-  description: 请问你是否确认要移除该帐号？
+  title: 删除账号
+  description: 你确认要删除该账号？
 
 # Confrim service
 confirm_service:
-  title: 确认帐户
+  title: 确认账号
   text:
     accept: 我同意 "[term]" 及 "[policy]"
     term: 服务条款
@@ -148,32 +148,32 @@ confirm_service:
 # If success
 success:
   title: 成功
-  description: 请等待设置完成，当成功登入到机器人后，你便可以关闭这个页面
+  description: 请稍等，当账号成功登录到机器人后，你便可以关闭这个页面
 
 # If error
 error:
   title: 错误
-  description: 伺服器无法连结至机器人端。请联系机器人的制作者或是胡桃团队
-  box: "错误纪录"
+  description: 服务器无法连接至机器人端。请联系机器人开发者或胡桃团队
+  box: "错误记录"
 
 # Error list
 errors:
-  account_fail: 帐户取得失败，请移除此帐户后再试一次
-  login_fail: 帐户登入失败，请再试一次
+  account_fail: 账号取得失败，请删除该账号后重试
+  login_fail: 登录失败，请再试一次
   auth_fail: 请在第1步骤中设置完毕
   login_limit: 您已被进行流量限制，请在 [retry_after] 秒后再试一次
   password_limit: 您已被 HoYoLAB 进行流量限制. 请在 20 分钟后再试一次
-  server_error: 伺服器端发生错误，请联系机器人的制作者或是胡桃团队
+  server_error: 服务器端发生错误，请联系机器人开发者或胡桃团队
   no_accept: 请同意 "[term]" 及 "[policy]"
-  otp_failed: OTP 发送错误，请在几个小时候再试一次
+  otp_failed: 验证码发送错误，
   mobile_not_registered: 此手机号码尚未注册，请先注册后再试一次
   invalid_uid: 无效的 UID
   invalid_mobile: 无效的手机号码
   open_oauth_failed: 打开 Discord OAuth 弹窗失败
-  account_fetch_fail: 无法取得帐户资讯，请移除帐户后再试一次
-  no_account: 您似乎没有连结任何帐户，请连结至少一个帐号后再试一次
+  account_fetch_fail: 无法获得账户信息，请删除账号后重试
+  no_account: 您似乎没有绑定任何账号，请绑定至少一个账号后重试
 
 # Maintenance
 maintenance:
   title:  服务器正在维护中
-  description: 网站正在维护当中. 将会在 [time] 恢复服务
+  description: 网站正在维护当中. 将会在 [time] 维护完毕
