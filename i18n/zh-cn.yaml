@@ -165,7 +165,6 @@ errors:
   password_limit: 您已被 HoYoLAB 进行流量限制. 请在 20 分钟后再试一次
   server_error: 服务器端发生错误，请联系机器人开发者或胡桃团队
   no_accept: 请同意 "[term]" 及 "[policy]"
-  otp_failed: 验证码发送错误，
   mobile_not_registered: 此手机号码尚未注册，请先注册后再试一次
   invalid_uid: 无效的 UID
   invalid_mobile: 无效的手机号码
@@ -177,3 +176,7 @@ errors:
 maintenance:
   title:  服务器正在维护中
   description: 网站正在维护当中. 将会在 [time] 维护完毕
+
+otp:
+  send_success: '验证码发送成功 ， 60秒后可再次点击“发送验证码”' 
+  send_failed: 验证码发送失败，请稍后重试

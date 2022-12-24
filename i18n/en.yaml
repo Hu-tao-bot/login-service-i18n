@@ -165,7 +165,6 @@ errors:
   password_limit: You have been rate limited from HoYoLAB. Please wait for 20 minutes and try again.
   server_error: Server error. Please report this us
   no_accept: Please accept "[term]" and "[policy]"
-  otp_failed: Failed to send OTP. Please wait a few hours and try again.
   mobile_not_registered: This mobile not registered
   invalid_uid: Invalid UID
   invalid_mobile: Invalid mobile
@@ -177,3 +176,7 @@ errors:
 maintenance:
   title:  Server was under maintenancing
   description: The website is currently under maintenance. Service will be back online at [time]
+
+otp:
+  send_success: 'Send OTP successfully. If you wait over in 60 seconds, You can click "Send OTP Code" button again.'
+  send_failed: Failed to send OTP. Please wait a few hours and try again.

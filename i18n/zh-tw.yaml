@@ -165,7 +165,6 @@ errors:
   password_limit: 您已被 HoYoLAB 進行流量限制. 請在 20 分鐘後再試一次
   server_error: 伺服器端發生錯誤，請聯繫機器人的製作者或是胡桃團隊
   no_accept: 請同意 "[term]" 及 "[policy]"
-  otp_failed: OTP 發送錯誤，請在幾個小時候再試一次
   mobile_not_registered: 此手機號碼尚未註冊，請先註冊後再試一次
   invalid_uid: 無效的 UID
   invalid_mobile: 無效的手機號碼
@@ -177,3 +176,7 @@ errors:
 maintenance:
   title:  服務器維護中
   description: 網站正在維護當中. 將會在 [time] 恢復服務
+
+otp:
+  send_success: Send OTP successfully. If you wait over in 60 seconds, You can click "Send OTP Code" button again.
+  send_failed: OTP 發送錯誤，請在幾個小時候再試一次

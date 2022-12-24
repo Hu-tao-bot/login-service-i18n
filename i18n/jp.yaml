@@ -165,7 +165,6 @@ errors:
   password_limit: HoYoLABからレート制限されています。約20分後に再試行してください
   server_error: サーバーエラー 私達にご連絡ください
   no_accept: '"[term]" と "[policy]"に同意してください'
-  otp_failed: ワンタイムパスワードの送信に失敗しました。数時間後に再度お試しください
   mobile_not_registered: この電話番号は登録されていません
   invalid_uid: 無効なUID
   invalid_mobile: 無効な電話番号
@@ -177,3 +176,7 @@ errors:
 maintenance:
   title:  サーバーはメンテナンス中でした
   description: メンテナンス中。サービスは [time] に復元されます
+
+otp:
+  send_success: 'Send OTP successfully. If you wait over in 60 seconds, You can click "send" button again.'
+  send_failed: ワンタイムパスワードの送信に失敗しました。数時間後に再度お試しください
