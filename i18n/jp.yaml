@@ -174,8 +174,12 @@ errors:
 
 # Maintenance
 maintenance:
-  title:  サーバーはメンテナンス中でした
-  description: メンテナンス中。サービスは [time] に復元されます
+  server:
+    title:  サーバーはメンテナンス中でした
+    description: メンテナンス中。サービスは [time] に復元されます
+  enka:
+    title: サーバーはメンテナンス中でした
+    description: Enka.network is currently under maintenance. Please wait took 5 - 8 hour(s) to available again
 
 otp:
   send_success: 'Send OTP successfully. If you wait over in 60 seconds, You can click "send" button again.'

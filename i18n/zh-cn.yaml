@@ -174,8 +174,12 @@ errors:
 
 # Maintenance
 maintenance:
-  title:  服务器正在维护中
-  description: 网站正在维护当中. 将会在 [time] 维护完毕
+  server:
+    title:  服务器正在维护中
+    description: 网站正在维护当中. 将会在 [time] 维护完毕
+  enka:
+    title:  服务器正在维护中
+    description: 目前Enka.network正在维护中，预计在5-8个小时之后恢复使用
 
 otp:
   send_success: '验证码发送成功 ， 60秒后可再次点击“发送验证码”' 

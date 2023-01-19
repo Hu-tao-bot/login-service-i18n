@@ -174,8 +174,12 @@ errors:
 
 # Maintenance
 maintenance:
-  title:  服務器維護中
-  description: 網站正在維護當中. 將會在 [time] 恢復服務
+  server:
+    title:  服務器維護中
+    description: 網站正在維護當中. 將會在 [time] 恢復服務
+  enka:
+    title: 服務器維護中
+    description: Enka.network is currently under maintenance. Please wait took 5 - 8 hour(s) to available again
 
 otp:
   send_success: Send OTP successfully. If you wait over in 60 seconds, You can click "Send OTP Code" button again.

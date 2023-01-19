@@ -174,8 +174,12 @@ errors:
 
 # Maintenance
 maintenance:
-  title:  Server was under maintenancing
-  description: The website is currently under maintenance. Service will be back online at [time]
+  server:
+    title: Server was under maintenancing
+    description: The website is currently under maintenance. Service will be back online at [time]
+  enka:
+    title: Server was under maintenancing
+    description: Enka.network is currently under maintenance. Please wait took 5 - 8 hour(s) to available again
 
 otp:
   send_success: 'Send OTP successfully. If you wait over in 60 seconds, You can click "Send OTP Code" button again.'
